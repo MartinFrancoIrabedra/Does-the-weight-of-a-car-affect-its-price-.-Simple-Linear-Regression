@@ -5,9 +5,11 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 import seaborn as sns
 
-data = pd.read_stata("/Users/martinfranco/Desktop/Universität/Mikroökonomik/Applied Microeconometrics/Exercises/dta/auto.dta")
-data.to_csv("/Users/martinfranco/Desktop/Universität/Mikroökonomik/Applied Microeconometrics/Exercises/dta/auto.dta")
+url = "https://github.com/MartinFrancoIrabedra/Simple-Linear-Regression/blob/main/Data/ajr.dta"
+data = pd.read_stata(url, index_col=0)
+data.to_csv(url)
 print(data)
+
 
 
 
