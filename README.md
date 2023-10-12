@@ -1,6 +1,6 @@
 # Does the weight of a car affect its price? Simple Linear Regression
 
-To see if the weight of a car affects its price I used a data set of cars sold in the US in 1978 accounting for the 74 observations of price versus weight. We can notice a positive relationship between the weight and the price of the cars so we can hypothesize that the heavier a car is, the more expensive it will be. As an argument for this is that the more pieces the car has inside equals a more weight and the more pieces it has the more it will cost.
+To see if the weight of a car affects its price I used simple linear regression with a data set of cars sold in the US in 1978 accounting for the 74 observations of price versus weight. We can notice a positive relationship between the weight and the price of the cars so we can hypothesize that the heavier a car is, the more expensive it will be. As an argument for this is that the more pieces the car has inside equals a more weight and the more pieces it has the more it will cost.
 
 Linear regressions are statistical tools to calculate the relationship between two or more variables.
 What we want is to know how an independent variable or several independent variables (X) influence the dependent variable (Y).
